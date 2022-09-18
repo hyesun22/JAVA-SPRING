@@ -1,4 +1,4 @@
-# 스프링 프로젝트 생성
+# 스프링 프로젝트 생성 및 Gradle 외부 프로젝트 import
 https://start.spring.io/ <br>
 * 메이븐/그래들: 라이브러리 관리 툴
 * 스냅샷: 아직 만들고 있는 버전 (예를 들어 1.0-snapshot 이라는 말의 의미는 1.0 버전을 바탕으로 개발중인 버전이라는 것을 의미 
@@ -12,3 +12,8 @@ https://start.spring.io/ <br>
 * thymeleaf: html을 만들어주는 템플릿 엔진 `이것말고도 종류가 다양하다`
 ![image](https://user-images.githubusercontent.com/110083948/190884995-e322d4c1-1550-4214-8d83-59e5e88940ba.png)
 ***GENERATE!!***
+
+![image](https://user-images.githubusercontent.com/110083948/190887041-263b8d65-941f-488d-b3db-672be8d005c6.png) <br>
+`gradle로 만든 외부 프로젝트 import하는 법. (일반적인 루트로 import를 시도하면 프로젝트가 보이지 않는다)`
+
+* 프로젝트 import후, 생긴 물음표는 깃허브 PUSH를 한 후, 이클립스 재접속을 하면 사라져 있다
