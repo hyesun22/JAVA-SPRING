@@ -17,3 +17,7 @@ https://start.spring.io/ <br>
 `gradle로 만든 외부 프로젝트 import하는 법. (일반적인 루트로 import를 시도하면 프로젝트가 보이지 않는다)`
 
 * 프로젝트 import후, 생긴 물음표는 깃허브 PUSH를 한 후, 이클립스 재접속을 하면 사라져 있다
+
+* 그래들 프로젝트 import 오류) **could not run phased build action using connection to gradle distribution** <br>
+`그래들 버전이 맞지 않아서 발생하는 오류.` <br>
+preferences - gradle로 가서 버전 확인 및 & 그래들 설치된 루트 아예 지정해주기 (루트: c:\Users\{username}\.gradle\wrapper\dists)
