@@ -10,9 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Member {
-	
-	public Member(Object object, String string) {
-	}
+
 	
 	@Id
 	private Integer id;
